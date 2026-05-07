@@ -1,0 +1,16 @@
+# Credentials and session — never commit these
+.env
+session.json
+
+# Gym-specific data — these get generated when you run the scripts
+engagement_store.json
+top_30.json
+top_30.csv
+sent_request.json
+
+# Debug screenshots from the scraper
+*.png
+
+# Python
+__pycache__/
+*.pyc
